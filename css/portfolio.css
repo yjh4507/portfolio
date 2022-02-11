@@ -123,6 +123,7 @@ header>nav a span{
 }
 
 #bottom {
+  position:relative;
   margin:100px 0;
   width:100%;
   height:1000px;
@@ -220,4 +221,47 @@ ul>li>a .screen::after {
 }
 ul>li>a:hover .screen::after {
   opacity:1;
+}
+
+.btm_box_2 {
+  display:none;
+  margin-top:30px;
+  width:100%;
+  height:800px;
+}
+.screen .title {
+  position: absolute;
+  bottom:150%;
+  left:60px;
+  z-index:2;
+  width:240px;
+  transition:all .5s;
+  color:#FFA196;
+  font-size:25px;
+  text-align: center;
+}
+.screen .design {
+  position:absolute;
+  top:150%;
+  left:80px;
+  z-index:2;
+  width:200px;
+  color:#fff;
+  font-size:18px;
+  text-align: center;
+  transition:all .5s;
+  text-transform:uppercase;
+}
+ul>li>a:hover .title {bottom:52%;}
+ul>li>a:hover .design {top:52%;}
+
+/* 상세페이지-------------------------------------------------------- */
+
+.dim {
+  position:absolute;
+  top:0;
+  left:-370px;
+  width:100vw;
+  height:100vh;
+  background-color: rgba(0, 0, 0, 0.70);
 }
