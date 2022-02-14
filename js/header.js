@@ -1,7 +1,7 @@
 var typingBool = false; 
 var typingIdx=0; 
 
-var typingTxt = $(".header_h1none").text(); 
+var typingTxt = $(".header_h1_n").text(); 
 
 typingTxt=typingTxt.split("");
 
