@@ -1,13 +1,14 @@
 @charset "UTF-8";
 
 header {
-  width:100%;
+  width:100vw;
   height:800px;
   background:linear-gradient(#FFA196, #FFC8B4, #FFE6B8, #fff);
 }
 header nav {
   display: flex;
   justify-content:space-between;
+  align-items: center;
   margin:0 auto;
   padding:20px 50px;
   width:80%;
@@ -42,6 +43,7 @@ header nav a span{
   font-size:35px;
   text-shadow:2px 2px 2px #fff;
   font-weight:bold;
+  text-align: center;
 }
 .header_h1_n {
   display:none;
