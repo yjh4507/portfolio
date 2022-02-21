@@ -48,6 +48,10 @@ header nav a span{
 .header_h1_n {
   display:none;
 }
+.header_box>p {
+  text-align: center;
+  line-height:30px;
+}
 
 /* ----------------------------------------------------- */
 #wrap {
@@ -252,7 +256,7 @@ ul>li>a:hover .screen::after {
   z-index:2;
   width:200px;
   color:#fff;
-  font-size:18px;
+  font-size:16px;
   text-align: center;
   transition:all .5s;
   text-transform:uppercase;
